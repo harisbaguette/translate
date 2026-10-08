@@ -1,0 +1,37 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'kr.barobom.travel'
+    compileSdk 36
+    ndkVersion '28.2.13676358'
+    defaultConfig {
+        applicationId 'kr.barobom.travel'
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName '0.1.0'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        ndk { abiFilters 'arm64-v8a' }
+        externalNativeBuild { cmake { arguments '-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON', '-DCMAKE_BUILD_TYPE=Release'; cppFlags '-std=c++17 -O3' } }
+    }
+    buildTypes {
+        release { minifyEnabled false; signingConfig signingConfigs.debug }
+        debug { debuggable true }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    externalNativeBuild { cmake { path 'src/main/cpp/CMakeLists.txt'; version '3.22.1' } }
+    androidResources { noCompress += ['gguf'] }
+    packaging { jniLibs { useLegacyPackaging = false }; resources { excludes += ['/META-INF/{AL2.0,LGPL2.1}'] } }
+    buildFeatures { buildConfig true }
+    lint { abortOnError true; checkReleaseBuilds true }
+}
+dependencies {
+    implementation 'androidx.activity:activity:1.10.1'
+    implementation 'androidx.camera:camera-camera2:1.4.2'
+    implementation 'androidx.camera:camera-lifecycle:1.4.2'
+    implementation 'androidx.camera:camera-view:1.4.2'
+    implementation 'com.google.mlkit:text-recognition-japanese:16.0.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.6.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test:rules:1.6.1'
+}

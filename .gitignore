@@ -1,0 +1,9 @@
+/.project-map/
+.gradle/
+**/build/
+**/.cxx/
+local.properties
+vendor/
+app/src/main/assets/models/*.gguf
+*.jks
+artifacts/*.apk
