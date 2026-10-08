@@ -1,0 +1,10 @@
+
+kr.barobom.travel.DeviceTest:...
+kr.barobom.travel.InputTest:..
+kr.barobom.travel.UserFlowTest:..
+
+Time: 45.286
+
+OK (7 tests)
+
+

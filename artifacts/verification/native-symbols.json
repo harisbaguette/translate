@@ -1,0 +1,12 @@
+[
+  {
+    "lib": ".native-fast/libbarobom_fast.so",
+    "address": "00000000001ce3e4",
+    "decoded": "Java_kr_barobom_travel_NativeTranslator_nativeTranslate\n/Users/haris/Desktop/translate/app/src/main/cpp/translator.cpp:36\n"
+  },
+  {
+    "lib": "app/build/intermediates/cxx/Release/j6bo3n3h/obj/arm64-v8a/libbarobom.so",
+    "address": "00000000001ce1d4",
+    "decoded": "Java_kr_barobom_travel_NativeTranslator_nativeTranslate\n/Users/haris/Desktop/translate/app/src/main/cpp/translator.cpp:36\n"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "bytes": 600534880,
+  "tensor_types": {
+    "0": 129,
+    "14": 1,
+    "40": 224
+  },
+  "sha256": "dcc33bbae9b28d923c8c76a64f6157840841d26f8774f3dfd770d5fabeeb1cd7",
+  "patched_type": "40 -> 42",
+  "patched_sha256": "081ddd6869f8ed95c3b4e8afed86407dc1a28b23092032a56c409f37014c271f"
+}

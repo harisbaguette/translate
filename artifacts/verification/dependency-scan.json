@@ -1,0 +1,5 @@
+{
+  "components": 75,
+  "matches": [],
+  "scope": "Gradle releaseRuntimeClasspath; native model fork is pinned and packaged-file hash checked separately"
+}

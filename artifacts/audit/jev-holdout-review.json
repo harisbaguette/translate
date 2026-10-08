@@ -1,0 +1,37 @@
+{
+  "purpose": "미사용 여행 문장 의미 보존 보조 검토",
+  "elapsed_ms": 217,
+  "answers": {
+    "pair_0": {
+      "noul": 0.95
+    },
+    "pair_1": {
+      "noul": 0.93
+    },
+    "pair_2": {
+      "noul": 0.09
+    },
+    "pair_3": {
+      "noul": 0.95
+    },
+    "pair_4": {
+      "noul": 0.49
+    },
+    "pair_5": {
+      "noul": 0.93
+    },
+    "pair_6": {
+      "noul": 0.9
+    },
+    "pair_7": {
+      "noul": 0.92
+    },
+    "pair_8": {
+      "noul": 0.68
+    },
+    "pair_9": {
+      "noul": 0.94
+    }
+  },
+  "error": ""
+}

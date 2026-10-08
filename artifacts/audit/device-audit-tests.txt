@@ -1,0 +1,25 @@
+
+kr.barobom.travel.AuditTest:....
+Error in d_favoritesOrderAndModalCameraPause(kr.barobom.travel.AuditTest):
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertNotNull(Assert.java:713)
+	at org.junit.Assert.assertNotNull(Assert.java:723)
+	at kr.barobom.travel.AuditTest.d_favoritesOrderAndModalCameraPause(AuditTest.java:67)
+
+
+Time: 30.45
+There was 1 failure:
+1) d_favoritesOrderAndModalCameraPause(kr.barobom.travel.AuditTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertNotNull(Assert.java:713)
+	at org.junit.Assert.assertNotNull(Assert.java:723)
+	at kr.barobom.travel.AuditTest.d_favoritesOrderAndModalCameraPause(AuditTest.java:67)
+
+FAILURES!!!
+Tests run: 5,  Failures: 1
+
+

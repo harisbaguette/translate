@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.barobom.travel.LexiconTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-08T05:22:26.859Z" hostname="harisui-MacStudio.local" time="0.028">
+  <properties/>
+  <testcase name="menuAndPrice" classname="kr.barobom.travel.LexiconTest" time="0.013"/>
+  <testcase name="menuHasBreadth" classname="kr.barobom.travel.LexiconTest" time="0.002"/>
+  <testcase name="dontInventBrandMeaning" classname="kr.barobom.travel.LexiconTest" time="0.003"/>
+  <testcase name="compoundIsNotTreatedAsExact" classname="kr.barobom.travel.LexiconTest" time="0.004"/>
+  <testcase name="productLabels" classname="kr.barobom.travel.LexiconTest" time="0.001"/>
+  <testcase name="normalizesWidthAndWhitespace" classname="kr.barobom.travel.LexiconTest" time="0.002"/>
+  <testcase name="standaloneTaxIsPreserved" classname="kr.barobom.travel.LexiconTest" time="0.001"/>
+  <testcase name="ambiguousPiecesDontBecomeClaims" classname="kr.barobom.travel.LexiconTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,66 @@
+{
+  "version": "0.2.0",
+  "apk": "artifacts/바로봄.apk",
+  "sha256": "19d6c8ddd4fbaa8c6acd88fe5aac3759539a33ece8e425e218442a22e6763292",
+  "bytes": 496384492,
+  "environment": "Android API36 ARM64 emulator, 4GB RAM/4 cores, Wi-Fi/data disabled, imagefile camera with synthetic printed Japanese menu. Physical phone untested.",
+  "automated": {
+    "unit_tests": 16,
+    "instrumented_functional_tests": 13,
+    "lint": "PASS",
+    "apk_permission_hash_alignment": "PASS",
+    "signing": "v2 verified"
+  },
+  "performance": {
+    "photo_to_dictionary_first_frame_ms": {
+      "samples": [
+        146,
+        43,
+        32,
+        31,
+        27,
+        27,
+        29,
+        44,
+        32,
+        32,
+        27,
+        28
+      ],
+      "min": 27,
+      "median": 31.5,
+      "max": 146
+    },
+    "ai_translation_30_short_phrases_ms": {
+      "min": 453,
+      "median": 702.0,
+      "p95_nearest_rank": 816,
+      "max": 1308
+    },
+    "camera_to_dictionary_ms": 572
+  },
+  "quality_verdict": "FAIL: unknown phrase translation is not dependable for travel",
+  "unseen_semantic_failures": [
+    {
+      "ja": "鯖の骨にご注意ください",
+      "actual": "연어 뼈에 주의하세요",
+      "expected": "고등어 뼈에 주의하세요"
+    },
+    {
+      "ja": "辛くないカレーもあります",
+      "actual": "쓴하지 않은 카레라이스도 있습니다",
+      "expected": "맵지 않은 카레도 있습니다"
+    },
+    {
+      "ja": "冷凍したまま油で揚げてください",
+      "actual": "냉동된 상태로 기름에 볶아주세요",
+      "expected": "냉동 상태 그대로 기름에 튀겨 주세요"
+    }
+  ],
+  "remaining": [
+    "실물 폰 설치·카메라 지연·발열·배터리 미검증",
+    "AI 번역의 음식·맛·조리법 오역",
+    "496MB APK와 약2GB 여유 공간으로 설치 부담"
+  ],
+  "jev": "문장 의미 보조 검토에 사용; 앱에는 API 키와 네트워크 기능 없음"
+}

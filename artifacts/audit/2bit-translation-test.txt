@@ -1,0 +1,23 @@
+
+kr.barobom.travel.AuditTest:
+Error in b_translationBreadthAndLatency(kr.barobom.travel.AuditTest):
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at kr.barobom.travel.AuditTest.b_translationBreadthAndLatency(AuditTest.java:50)
+
+
+Time: 0.034
+There was 1 failure:
+1) b_translationBreadthAndLatency(kr.barobom.travel.AuditTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at kr.barobom.travel.AuditTest.b_translationBreadthAndLatency(AuditTest.java:50)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

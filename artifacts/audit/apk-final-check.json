@@ -1,0 +1,34 @@
+{
+  "apk": "artifacts/바로봄.apk",
+  "permissions": [
+    "package: kr.barobom.travel",
+    "uses-permission: name='android.permission.CAMERA'",
+    "permission: kr.barobom.travel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "uses-permission: name='kr.barobom.travel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'"
+  ],
+  "native": {
+    "lib/arm64-v8a/libbarobom.so": {
+      "min_load_alignment": 16384
+    },
+    "lib/arm64-v8a/libbarobom_fast.so": {
+      "min_load_alignment": 16384
+    },
+    "lib/arm64-v8a/libimage_processing_util_jni.so": {
+      "min_load_alignment": 16384
+    },
+    "lib/arm64-v8a/libmlkit_google_ocr_pipeline.so": {
+      "min_load_alignment": 16384
+    },
+    "lib/arm64-v8a/libsurface_util_jni.so": {
+      "min_load_alignment": 16384
+    }
+  },
+  "checks": [
+    "인터넷·음성·위치·광범위 저장소 권한 없음",
+    "모델 SHA-256 일치",
+    "사전·라이선스 동봉",
+    "전체 네이티브 라이브러리 16KB ELF 정렬"
+  ],
+  "sha256": "19d6c8ddd4fbaa8c6acd88fe5aac3759539a33ece8e425e218442a22e6763292",
+  "bytes": 496384492
+}
