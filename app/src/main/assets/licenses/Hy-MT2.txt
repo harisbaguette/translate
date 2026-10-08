@@ -206,3 +206,4 @@ Hy-MT2-1.8B-1.25Bit-GGUF is licensed under the Apache License, Version 2.0.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+바로봄 배포 변경 고지: 2026-10-08 공개 GGUF의 텐서 형식 메타데이터 STQ1_0 식별자 42를 고정된 llama.cpp PR의 식별자 43에 맞게 변경했습니다. 224개 형식 필드만 변경했고 모델 가중치는 변경하지 않았습니다. 변경 도구: tools/prepare.py.

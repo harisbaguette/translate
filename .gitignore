@@ -7,3 +7,8 @@ vendor/
 app/src/main/assets/models/*.gguf
 *.jks
 artifacts/*.apk
+.native-fast/
+app/src/main/jniLibs/
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/

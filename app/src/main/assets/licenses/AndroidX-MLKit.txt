@@ -1,0 +1,9 @@
+AndroidX / CameraX / Activity
+Copyright The Android Open Source Project
+Apache License, Version 2.0
+https://www.apache.org/licenses/LICENSE-2.0
+
+Google ML Kit Text Recognition (Japanese)
+https://developers.google.com/ml-kit/terms
+https://developers.google.com/terms
+ML Kit 이미지와 인식 결과는 기기에서 처리합니다. SDK에는 진단 지표 전송 기능이 있으나 이 앱은 INTERNET 권한과 전송용 스케줄러를 제거했습니다.
